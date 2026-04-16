@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Final test successful 🎯"
+    return "Auto trigger working 🚀 FINAL"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
